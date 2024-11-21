@@ -1,3 +1,15 @@
+c Compendium of Material Composition Data for Radiation Transport Modeling
+c PNNL-15870, Rev. 2
+c April 2021
+
+c  1. A-150 Tissue-Equivalent Plastic, rho=1.127 g/cc               
+m1  1000    -0.101327       $ H 
+    6000    -0.775500       $ C 
+    7000    -0.035057       $ N 
+    8000    -0.052316       $ O 
+    9000    -0.017422       $ F 
+
+
 c Air (dry, near sea level), rho=0.001205 g/cc
  m4    6000 -0.000124 
        7000 -0.755268 
@@ -37,6 +49,10 @@ c  Earth (soil), U.S. Average, rho=1.52 g/cc
       22000 -0.004604 
       25000 -0.000715 
       26000 -0.056285 
+
+
+c  Germanium, High Purity, rho=5.323 g/cc
+
 
 c Steel, Stainless 316L,  rho=8.0 g/cc
  m334   6000 -0.00030
